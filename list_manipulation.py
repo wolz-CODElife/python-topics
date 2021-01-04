@@ -6,6 +6,10 @@ my_list = []
 new_list=['p', 'o', 'p']
 print(my_list)
 
+#here is an example of getting the length/count of values in a list/array
+print(len(my_list))
+print(len(new_list))
+
 #here is an example of adding a value to an list/array
 my_list.append(2)
 print(my_list)
