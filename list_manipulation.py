@@ -29,3 +29,6 @@ my_list = [value for value in new_list]
 
 #here is an example of list comprehension adding a value based on a conditon to a list
 my_list = [value for value in new_list if value == 'p']
+
+#here is an example of changing the value of an item in a list during list comprehension
+my_list = [value = 'Pee' if value == 'p' else value = 'Ooo' for value in new_list]
