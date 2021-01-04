@@ -2,6 +2,9 @@
 This is a web scrapper example, scarping data from a quotes site
 
 '''
+#for a start you need two major modules, 
+#one to access the web address, by sending requests 
+#the other for identifying the HTML syntax
 import requests
 from bs4 import BeautifulSoup
 url = 'http://quotes.toscrape.com/'
