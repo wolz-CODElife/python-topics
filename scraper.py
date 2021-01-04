@@ -1,3 +1,7 @@
+'''
+This is a web scrapper example, scarping data from a quotes site
+
+'''
 import requests
 from bs4 import BeautifulSoup
 url = 'http://quotes.toscrape.com/'
