@@ -7,6 +7,7 @@ This is a web scrapper example, scarping data from a quotes site
 #the other for identifying the HTML syntax
 import requests
 from bs4 import BeautifulSoup
+#url => the address we want to scrape
 url = 'http://quotes.toscrape.com/'
 response = requests.get(url)
 
