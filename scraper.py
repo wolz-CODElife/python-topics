@@ -15,3 +15,4 @@ for i in range(0, len(quotes)):
 
     for tag in quotesTags:
         print(tag.text, end='\t')
+        print("="*25)
