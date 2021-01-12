@@ -8,4 +8,8 @@ def main():
     swap(first, last)
 
 def swap(first, last):
+    first, last = last, first
+    print('First: ', first, '/', 'Last: ', last)
+
+
     
