@@ -14,6 +14,7 @@ def isin(lily, ylil): # checks if arg1 can be taken letter by letter from arg2
         if i not in ylil: # first condition to confirm whether they have
                           # the same letters
             return False
+    # to check if a letter in a word can be found sufficiently in another word
     for i in a:
         if a.count(i) > b.count(i): # second condition to confirm whether
                                     # duplicates are allowed in arg 2
